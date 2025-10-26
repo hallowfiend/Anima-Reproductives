@@ -17,7 +17,7 @@
 			<Mass>1</Mass>
 		</statBases>
 	</ThingDef>
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="AnimaImplant">
 		<defName>AnimaWombImplant</defName>
 		<label>anima uterus</label>
 		<description>A psychically attuned semi-organic uterus, made of moist natural gels and thickly woven anima fibers. It provides a bit of psychic power and speeds up pregnancies that happen within it. It is also not affected by age-related fertility loss.</description>
