@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="AnimaImplant">
+		<defName>AnimaPenisImplant</defName>
+		<label>anima phallus</label>
+		<description>A psychically attuned semi-organic phallus, made of thick vascular roots and warm softwood. It provides a bit of psychic power and attunes to the body's hormonal cycles to induce a sense of composure. It is also not affected by age-related fertility loss.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AnimaPenisHediff</HediffDef>
+		</descriptionHyperlinks>
+		<costList>
+			<MedicineHerbal>10</MedicineHerbal>
+			<AnimaFiber>50</AnimaFiber>
+			<WoodLog>1</WoodLog>
+			<HemogenPack>5</HemogenPack>
+		</costList>
+		<statBases>
+			<Mass>1</Mass>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>AnimaWombImplant</defName>
+		<label>anima uterus</label>
+		<description>A psychically attuned semi-organic uterus, made of moist natural gels and thickly woven anima fibers. It provides a bit of psychic power and speeds up pregnancies that happen within it. It is also not affected by age-related fertility loss.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AnimaWombHediff</HediffDef>
+		</descriptionHyperlinks>
+		<costList>
+			<MedicineHerbal>20</MedicineHerbal>
+			<AnimaFiber>50</AnimaFiber>
+			<InsectJelly>20</InsectJelly>
+		</costList>
+		<statBases>
+			<Mass>1</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef ParentName="SEX_InstallReproductiveBase">
+		<defName>InstallAnimaWomb</defName>
+		<label>install anima uterus</label>
+		<description>Install an anima uterus.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AnimaWombImplant</ThingDef>
+			<HediffDef>AnimaWombHediff</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing anima uterus.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AnimaWombImplant</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AnimaWombImplant</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>SEX_Reproduction</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AnimaWombHediff</addsHediff>
+	</RecipeDef>
+	<RecipeDef ParentName="SEX_RemoveReproductiveBase">
+		<defName>RemoveAnimaWomb</defName>
+		<label>remove anima uterus</label>
+		<description>Remove this person's anima uterus.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AnimaWombImplant</ThingDef>
+			<HediffDef>AnimaWombHediff</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing anima uterus.</jobString>
+		<removesHediff>AnimaWombHediff</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SEX_InstallReproductiveBase">
+		<defName>InstallAnimaPenis</defName>
+		<label>install anima phallus</label>
+		<description>Install an anima phallus.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AnimaPenisImplant</ThingDef>
+			<HediffDef>AnimaPenisHediff</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing anima penis.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AnimaPenisImplant</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AnimaPenisImplant</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>SEX_Reproduction</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AnimaPenisHediff</addsHediff>
+	</RecipeDef>
+	<RecipeDef ParentName="SEX_RemoveReproductiveBase">
+		<defName>RemoveAnimaPenis</defName>
+		<label>remove anima penis</label>
+		<description>Remove this person's anima penis.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AnimaPenisImplant</ThingDef>
+			<HediffDef>AnimaPenisHediff</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing anima penis.</jobString>
+		<removesHediff>AnimaPenisHediff</removesHediff>
+	</RecipeDef>
+</Defs>

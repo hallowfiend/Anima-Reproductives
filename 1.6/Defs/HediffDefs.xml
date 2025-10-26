@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef ParentName="SEX_ReproductiveImplantHediffBase">
+		<defName>AnimaPenisHediff</defName>
+		<label>anima phallus</label>
+		<labelNoun>a phallus</labelNoun>
+		<description>An anima phallus.</description>
+		<defaultLabelColor>(0, 0.6, 0.4)</defaultLabelColor>
+		<descriptionHyperlinks>
+			<ThingDef>AnimaPenisImplant</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>AnimaPenisImplant</spawnThingOnRemoved>
+		<tags>
+			<li>SEX_MaleReproductiveOrgan</li>
+			<li>SEX_ReproductiveOrgan</li>
+			<li>SEX_BionicReproductiveOrgan</li>
+			<li>AnimaReproductiveOrgan</li>
+		</tags>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PsychicSensitivity>0.20</PsychicSensitivity>
+					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef ParentName="SEX_ReproductiveImplantHediffBase">
+		<defName>AnimaWombHediff</defName>
+		<label>anima uterus</label>
+		<labelNoun>an uterus</labelNoun>
+		<description>An anima uterus.</description>
+		<defaultLabelColor>(0, 0.6, 0.4)</defaultLabelColor>
+		<descriptionHyperlinks>
+			<ThingDef>AnimaWombImplant</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>AnimaWombImplant</spawnThingOnRemoved>
+		<tags>
+			<li>SEX_FemaleReproductiveOrgan</li>
+			<li>SEX_ReproductiveOrgan</li>
+			<li>SEX_BionicReproductiveOrgan</li>
+			<li>AnimaReproductiveOrgan</li>
+		</tags>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PsychicSensitivity>0.10</PsychicSensitivity>
+					<EBSG_PawnGestationSpeed>1.5</EBSG_PawnGestationSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>
