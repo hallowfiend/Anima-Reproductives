@@ -90,7 +90,7 @@
 			<ThingDef>AnimaOvipositorImplant</ThingDef>
 			<HediffDef>AnimaOvipositorHediff</HediffDef>
 		</descriptionHyperlinks>
-		<jobString>Installing anima penis.</jobString>
+		<jobString>Installing anima ovipositor.</jobString>
 		<ingredients>
 			<li>
 				<filter>

@@ -58,9 +58,9 @@
 	</HediffDef>
 	<HediffDef ParentName="SEX_ReproductiveImplantHediffBase">
 		<defName>AnimaOvipositorHediff</defName>
-		<label>anima uterus</label>
+		<label>anima ovipositor</label>
 		<labelNoun>an ovipositor</labelNoun>
-		<description>An anima uterus.</description>
+		<description>An anima ovipositor.</description>
 		<defaultLabelColor>(0, 0.6, 0.4)</defaultLabelColor>
 		<descriptionHyperlinks>
 			<ThingDef>AnimaOvipositorImplant</ThingDef>
