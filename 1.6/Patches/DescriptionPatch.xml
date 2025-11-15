@@ -3,17 +3,17 @@
 
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
-		<xpath>/Defs/HediffDefs/ThingDef[defName="SEX_BionicPenis"]/description</xpath>
+		<xpath>/Defs/HediffDefs/Hediffs_Bionic/ThingDef[defName="SEX_BionicPenis"]/description</xpath>
 		<value>An advanced artificial phallus. A biogel nerve bundle runs down an articulated plasteel shaft, surrounded by nerve stimulators. It is quite a bit better than a biological phallus and is noy affected by age-related fertility modifiers.</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
-		<xpath>/Defs/HediffDefs/ThingDef[defName="SEX_BionicWomb"]/description</xpath>
+		<xpath>/Defs/HediffDefs/Hediffs_Bionic/ThingDef[defName="SEX_BionicWomb"]/description</xpath>
 		<value>An advanced artificial uterus. A biogel stimulator extends out of the bottom of an artifical gestator. It is quite a bit better than a biological uterus is not affected by age-related fertility modifiers.</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
-		<xpath>/Defs/HediffDefs/ThingDef[defName="SEX_BionicOvipositor"]/description</xpath>
+		<xpath>/Defs/HediffDefs/Hediffs_Bionic/ThingDef[defName="SEX_BionicOvipositor"]/description</xpath>
 		<value>An advanced artifical ovipositor, a tube-like organ that allows the bearer to lay eggs and is quite a bit more performant than a standard uterus. Ovipositors produce human eggs for reproduction. Parents with an ovipositor will not lactate after laying an egg.\n\nThese organs were engineered in some distant glitterworld during the 38th century to solve the issue of maternal death. Although an egg takes longer than a pregnancy to mature, the gestation process poses no risk of death or complications for the parent.</value>
 	</Operation>
 
