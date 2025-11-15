@@ -33,4 +33,20 @@
 			<Mass>1</Mass>
 		</statBases>
 	</ThingDef>
+	<ThingDef ParentName="AnimaImplant">
+		<defName>AnimaOvipositorImplant</defName>
+		<label>anima ovipositor</label>
+		<description>A psychically attuned semi-organic tube-shaped organ assembled from woven anima fiber, as well as specialized organic cavities full of symbiotic microorganisms which produce substances necessary for egg formation. It provides a bit of psychic power, and the microbes' chemical signals can integrate with the nervous system to slightly optimize psycasting formulation.\n\nAlthough an egg takes longer than a pregnancy to mature, the gestation process poses no risk of death or complications for the parent.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AnimaOvipositorHediff</HediffDef>
+		</descriptionHyperlinks>
+		<costList>
+			<MedicineHerbal>30</MedicineHerbal>
+			<AnimaFiber>40</AnimaFiber>
+			<PsychoidLeaves>30</PsychoidLeaves>
+		</costList>
+		<statBases>
+			<Mass>1</Mass>
+		</statBases>
+	</ThingDef>
 </Defs>

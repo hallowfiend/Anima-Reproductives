@@ -81,4 +81,45 @@
 		<jobString>Removing anima penis.</jobString>
 		<removesHediff>AnimaPenisHediff</removesHediff>
 	</RecipeDef>
+	
+	<RecipeDef ParentName="SEX_InstallReproductiveBase">
+		<defName>InstallAnimaOvipositor</defName>
+		<label>install anima ovipositor</label>
+		<description>Install an anima ovipositor.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AnimaOvipositorImplant</ThingDef>
+			<HediffDef>AnimaOvipositorHediff</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing anima penis.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AnimaOvipositorImplant</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AnimaOvipositorImplant</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>SEX_Reproduction</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AnimaOvipositorHediff</addsHediff>
+	</RecipeDef>
+	<RecipeDef ParentName="SEX_RemoveReproductiveBase">
+		<defName>RemoveAnimaOvipositor</defName>
+		<label>remove anima ovipositor</label>
+		<description>Remove this person's anima ovipositor.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AnimaOvipositorImplant</ThingDef>
+			<HediffDef>AnimaOvipositorHediff</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing anima ovipositor.</jobString>
+		<removesHediff>AnimaOvipositorHediff</removesHediff>
+	</RecipeDef>
 </Defs>

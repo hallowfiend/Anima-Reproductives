@@ -56,4 +56,33 @@
 			</li>
 		</stages>
 	</HediffDef>
+	<HediffDef ParentName="SEX_ReproductiveImplantHediffBase">
+		<defName>AnimaOvipositorHediff</defName>
+		<label>anima uterus</label>
+		<labelNoun>an ovipositor</labelNoun>
+		<description>An anima uterus.</description>
+		<defaultLabelColor>(0, 0.6, 0.4)</defaultLabelColor>
+		<descriptionHyperlinks>
+			<ThingDef>AnimaOvipositorImplant</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>AnimaOvipositorImplant</spawnThingOnRemoved>
+		<tags>
+			<li>SEX_FemaleReproductiveOrgan</li>
+			<li>SEX_ReproductiveOrgan</li>
+			<li>SEX_BionicReproductiveOrgan</li>
+			<li>AnimaReproductiveOrgan</li>
+			<li>SEX_EggLayer</li>
+		</tags>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PsychicSensitivity>0.10</PsychicSensitivity>
+					<VPE_PsyfocusCostFactor MayRequire="VanillaExpanded.VPsycastsE">-0.05</VPE_PsyfocusCostFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>
