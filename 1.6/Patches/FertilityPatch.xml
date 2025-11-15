@@ -27,5 +27,18 @@
 			</stages>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/HediffDefs/HediffDef[defName="SEX_BionicOvipositor"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<Fertility>0.25</Fertility>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
 
 </Patch>
